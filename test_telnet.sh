@@ -1,8 +1,8 @@
 host=###
 DATE=`date +%Y-%m-%d`
 TIME=`date +%H%M%S`
-LOG_OK=/tmp/telnet_ok
-LOG_FAIL=/tmp/telnet_fail
+LOG_OK=$pwd/telnet_ok
+LOG_FAIL=$pwd/telnet_fail
 
 for port in 22 25
 do
